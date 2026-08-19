@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Modern static e-commerce storefront">
+  <title>PyaruDidiKiDukan — Modern Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement">Free shipping on orders over ₹999 • Easy returns</div>
+
+  <header class="header">
+    <a class="logo" href="index.html" aria-label="PyaruDidiKiDukan home">PyaruDidi<span>KiDukan</span></a>
+    <nav class="desktop-nav">
+      <a href="index.html#shop">Shop</a>
+      <a href="index.html#categories">Categories</a>
+      <a href="index.html#new">New Arrivals</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn" id="searchToggle" aria-label="Search">⌕</button>
+      <button class="icon-btn cart-btn" id="cartOpen" aria-label="Open cart">🛒<b id="cartCount">0</b></button>
+    </div>
+  </header>
+
+  <div class="search-bar" id="searchBar">
+    <input id="searchInput" type="search" placeholder="Search products..." autocomplete="off">
+  </div>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">NEW SEASON</p>
+        <h1>Style that<br><em>fits you.</em></h1>
+        <p>Discover curated products across fashion, lifestyle, accessories and more.</p>
+        <a class="primary-btn" href="#shop">Shop now <span>→</span></a>
+      </div>
+      <div class="hero-art">
+        <div class="hero-card card-one">NEW<br>DROP</div>
+        <div class="hero-card card-two">CURATED<br>FOR YOU</div>
+      </div>
+    </section>
+
+    <section class="section" id="categories">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">EXPLORE</p>
+          <h2>Shop by category</h2>
+        </div>
+      </div>
+      <div class="category-grid" id="categoryGrid"></div>
+    </section>
+
+    <section class="section" id="shop">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">OUR COLLECTION</p>
+          <h2>All products</h2>
+        </div>
+        <select id="sortSelect" class="sort-select" aria-label="Sort products">
+          <option value="featured">Featured</option>
+          <option value="price-low">Price: Low to high</option>
+          <option value="price-high">Price: High to low</option>
+          <option value="name">Name: A–Z</option>
+        </select>
+      </div>
+      <div class="active-filter" id="activeFilter"></div>
+      <div class="product-grid" id="productGrid"></div>
+      <div class="empty-state" id="emptyState" hidden>
+        <div>⌕</div>
+        <h3>No products found</h3>
+        <p>Try another search or category.</p>
+      </div>
+    </section>
+
+    <section class="promo" id="new">
+      <div>
+        <p class="eyebrow">WHY SHOP WITH US</p>
+        <h2>Simple shopping.<br>Better products.</h2>
+      </div>
+      <div class="benefits">
+        <div><strong>01</strong><span>Curated products</span></div>
+        <div><strong>02</strong><span>Secure checkout-ready cart</span></div>
+        <div><strong>03</strong><span>Mobile-first experience</span></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand">
+      <a class="logo" href="index.html">PyaruDidi<span>KiDukan</span></a>
+      <p>All You Need,Right Here!</p>
+    </div>
+    <div class="footer-links">
+      <a href="#shop">Shop</a>
+      <a href="#categories">Categories</a>
+      <a href="privacy.html">Privacy</a>
+    </div>
+    <p class="copyright">© <span id="year"></span> PyaruDidiKiDukan. All rights reserved.</p>
+  </footer>
+
+  <div class="overlay" id="overlay"></div>
+
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Shopping cart">
+    <div class="cart-head">
+      <h2>Your cart</h2>
+      <button class="close-btn" id="cartClose">×</button>
+    </div>
+    <div class="cart-items" id="cartItems"></div>
+    <div class="cart-empty" id="cartEmpty">
+      <div class="empty-icon">🛒</div>
+      <h3>Your cart is empty</h3>
+      <p>Add something you love.</p>
+    </div>
+    <div class="cart-footer" id="cartFooter">
+      <div class="total-row"><span>Subtotal</span><strong id="cartSubtotal">₹0</strong></div>
+      <p>Shipping and taxes are calculated at checkout.</p>
+      <button class="primary-btn full" id="checkoutBtn">Proceed to checkout</button>
+    </div>
+  </aside>
+
+  <div class="product-modal" id="productModal">
+    <button class="modal-close" id="modalClose">×</button>
+    <div id="modalContent"></div>
+  </div>
+
+  <div class="toast" id="toast"></div>
+
+  <script src="products.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
