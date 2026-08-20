@@ -19,77 +19,77 @@ const STORE_CATEGORIES = [
   //   name: "Women",
   //   image: "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=900&q=80"
   // },
-  // {
-  //   id: "accessories",
-  //   name: "Accessories",
-  //   image: "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&w=900&q=80"
-  // },
-  // {
-  //   id: "peda",
-  //   name: "Peda",
-  //   image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80"
-  // }
+  {
+    id: "rudraksha",
+    name: "Rudraksha",
+    image: "https://i.pinimg.com/1200x/a4/72/1b/a4721bb6bf6c06154b69f8ecbf273fbc.jpg"
+  },
+  {
+    id: "peda",
+    name: "Peda",
+    image: "https://i.pinimg.com/1200x/b1/93/15/b1931595ca10149d46e49baf85a977d9.jpg"
+  }
 ];
 
-// const PRODUCTS = [
-//   {
-//     id: "MEN-001",
-//     name: "Essential Overshirt",
-//     category: "men",
-//     price: 1499,
-//     salePrice: 1199,
-//     badge: "NEW",
-//     image: "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=900&q=80",
-//     description: "A versatile everyday overshirt with a clean contemporary fit."
-//   },
-//   {
-//     id: "MEN-002",
-//     name: "Classic Relaxed Shirt",
-//     category: "men",
-//     price: 1299,
-//     salePrice: 999,
-//     badge: "BESTSELLER",
-//     image: "https://images.unsplash.com/photo-1603252110481-7ba873bf42ab?auto=format&fit=crop&w=900&q=80",
-//     description: "A timeless relaxed shirt designed for effortless everyday styling."
-//   },
-//   {
-//     id: "WOM-001",
-//     name: "Satin Statement Dress",
-//     category: "women",
-//     price: 2499,
-//     salePrice: 1999,
-//     badge: "NEW",
-//     image: "https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=900&q=80",
-//     description: "Elegant satin finish with a modern silhouette for special occasions."
-//   },
-//   {
-//     id: "WOM-002",
-//     name: "Everyday Minimal Top",
-//     category: "women",
-//     price: 999,
-//     salePrice: 799,
-//     badge: "",
-//     image: "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?auto=format&fit=crop&w=900&q=80",
-//     description: "Minimal, comfortable and easy to pair with your everyday wardrobe."
-//   },
-//   {
-//     id: "ACC-001",
-//     name: "Minimal Watch",
-//     category: "accessories",
-//     price: 2999,
-//     salePrice: 2299,
-//     badge: "BESTSELLER",
-//     image: "https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=900&q=80",
-//     description: "A refined minimalist watch with an understated premium look."
-//   },
-//   {
-//     id: "ACC-002",
-//     name: "Everyday Sunglasses",
-//     category: "accessories",
-//     price: 1499,
-//     salePrice: 1099,
-//     badge: "",
-//     image: "https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=900&q=80",
-//     description: "Classic everyday frames with a clean modern profile."
-//   },
-// ];
+const PRODUCTS = [
+  // {
+  //   id: "MEN-001",
+  //   name: "Essential Overshirt",
+  //   category: "men",
+  //   price: 1499,
+  //   salePrice: 1199,
+  //   badge: "NEW",
+  //   image: "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=900&q=80",
+  //   description: "A versatile everyday overshirt with a clean contemporary fit."
+  // },
+  // {
+  //   id: "MEN-002",
+  //   name: "Classic Relaxed Shirt",
+  //   category: "men",
+  //   price: 1299,
+  //   salePrice: 999,
+  //   badge: "BESTSELLER",
+  //   image: "https://images.unsplash.com/photo-1603252110481-7ba873bf42ab?auto=format&fit=crop&w=900&q=80",
+  //   description: "A timeless relaxed shirt designed for effortless everyday styling."
+  // },
+  // {
+  //   id: "WOM-001",
+  //   name: "Satin Statement Dress",
+  //   category: "women",
+  //   price: 2499,
+  //   salePrice: 1999,
+  //   badge: "NEW",
+  //   image: "https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=900&q=80",
+  //   description: "Elegant satin finish with a modern silhouette for special occasions."
+  // },
+  // {
+  //   id: "WOM-002",
+  //   name: "Everyday Minimal Top",
+  //   category: "women",
+  //   price: 999,
+  //   salePrice: 799,
+  //   badge: "",
+  //   image: "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?auto=format&fit=crop&w=900&q=80",
+  //   description: "Minimal, comfortable and easy to pair with your everyday wardrobe."
+  // },
+  // {
+  //   id: "ACC-001",
+  //   name: "Minimal Watch",
+  //   category: "accessories",
+  //   price: 2999,
+  //   salePrice: 2299,
+  //   badge: "BESTSELLER",
+  //   image: "https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=900&q=80",
+  //   description: "A refined minimalist watch with an understated premium look."
+  // },
+  // {
+  //   id: "ACC-002",
+  //   name: "Everyday Sunglasses",
+  //   category: "accessories",
+  //   price: 1499,
+  //   salePrice: 1099,
+  //   badge: "",
+  //   image: "https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=900&q=80",
+  //   description: "Classic everyday frames with a clean modern profile."
+  // },
+];
