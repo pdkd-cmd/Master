@@ -14,11 +14,11 @@ const STORE_CATEGORIES = [
   //   name: "Men",
   //   image: "https://images.unsplash.com/photo-1617127365659-c47fa864d8bc?auto=format&fit=crop&w=900&q=80"
   // },
-  // {
-  //   id: "women",
-  //   name: "Women",
-  //   image: "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=900&q=80"
-  // },
+  {
+    id: "kids",
+    name: "Kids",
+    image: "https://i.pinimg.com/736x/59/47/26/5947269149ebced1d0c460d920598798.jpg"
+  },
   {
     id: "rudraksha",
     name: "Rudraksha",
@@ -32,26 +32,36 @@ const STORE_CATEGORIES = [
 ];
 
 const PRODUCTS = [
-  // {
-  //   id: "MEN-001",
-  //   name: "Essential Overshirt",
-  //   category: "men",
-  //   price: 1499,
-  //   salePrice: 1199,
-  //   badge: "NEW",
-  //   image: "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=900&q=80",
-  //   description: "A versatile everyday overshirt with a clean contemporary fit."
-  // },
-  // {
-  //   id: "MEN-002",
-  //   name: "Classic Relaxed Shirt",
-  //   category: "men",
-  //   price: 1299,
-  //   salePrice: 999,
-  //   badge: "BESTSELLER",
-  //   image: "https://images.unsplash.com/photo-1603252110481-7ba873bf42ab?auto=format&fit=crop&w=900&q=80",
-  //   description: "A timeless relaxed shirt designed for effortless everyday styling."
-  // },
+  {
+    id: "KIDS-001",
+    name: "Kids Casual's ( Pack of 5 )",
+    category: "kids",
+    price: 2085,
+    salePrice: 1750,
+    badge: "NEW",
+    image: "/uploads/pd1.jpeg",
+    description: "A versatile everyday overshirt with a clean contemporary fit."
+  },
+  {
+    id: "KIDS-002",
+    name: "Kids Casual's ( Pack of 5 )",
+    category: "kids",
+    price: 1935,
+    salePrice: 1625,
+    badge: "NEW",
+    image: "/uploads/pd2.jpeg",
+    description: "A versatile everyday overshirt with a clean contemporary fit."
+  },
+  {
+    id: "Rud-001",
+    name: "Rudraksha Mala",
+    category: "rudraksha",
+    price: 999,
+    salePrice: 399,
+    badge: "BESTSELLER",
+    image: "/uploads/Rud001.png",
+    description: "A beautiful Rudraksha mala perfect for meditation and spiritual practices."
+  },
   // {
   //   id: "WOM-001",
   //   name: "Satin Statement Dress",
