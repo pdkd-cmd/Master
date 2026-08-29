@@ -40,7 +40,7 @@ const PRODUCTS = [
     salePrice: 1750,
     badge: "NEW",
     image: "/uploads/pd1.jpeg",
-    description: "A versatile everyday overshirt with a clean contemporary fit."
+    description: "Pack of 5 casual wear Housery for kids With Size 80 CM Suitable for 1.5 yrs - 2.5 yrs kids."
   },
   {
     id: "KIDS-002",
@@ -50,7 +50,7 @@ const PRODUCTS = [
     salePrice: 1625,
     badge: "NEW",
     image: "/uploads/pd2.jpeg",
-    description: "A versatile everyday overshirt with a clean contemporary fit."
+    description: "Pack of 5 casual wear Housery for kids With Size 75 CM Suitable for 1 yrs - 2 yrs kids."
   },
   {
     id: "Rud-001",
@@ -59,7 +59,9 @@ const PRODUCTS = [
     price: 999,
     salePrice: 399,
     badge: "BESTSELLER",
-    image: "/uploads/Rud001.png",
+    image: [
+      "/uploads/Rud001.png",
+    ],
     description: "A beautiful Rudraksha mala perfect for meditation and spiritual practices."
   },
   // {
