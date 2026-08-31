@@ -9,11 +9,11 @@
 */
 
 const STORE_CATEGORIES = [
-  // {
-  //   id: "men",
-  //   name: "Men",
-  //   image: "https://images.unsplash.com/photo-1617127365659-c47fa864d8bc?auto=format&fit=crop&w=900&q=80"
-  // },
+  {
+    id: "women",
+    name: "Women",
+    image: "https://i.pinimg.com/736x/57/02/44/5702448155e4ba40356f8305eaee5a29.jpg"
+  },
   {
     id: "kids",
     name: "Kids",
@@ -64,6 +64,30 @@ const PRODUCTS = [
     ],
     description: "A beautiful Rudraksha mala perfect for meditation and spiritual practices."
   },
+  {
+    id: "Wom-001",
+    name: "Roman Combo Pack with 1 Jockey Panty",
+    category: "women",
+    price: 1999,
+    salePrice: 1299,
+    badge: "New",
+    image: [
+      "https://i.pinimg.com/736x/07/1c/b2/071cb26223d7c61733ca12e3269b9ebc.jpg",
+    ],
+    description: "Elevate your style with this elegant and comfortable women’s wear. Made from high-quality fabric, it offers a flattering fit and all-day comfort. Perfect for casual outings, office wear, and special occasions ,  Avaiable size's M, L, XL, XXL."
+  },
+    {
+    id: "Wom-001",
+    name: "Beautiful Combo Pack with 1 Jockey Panty",
+    category: "women",
+    price: 1999,
+    salePrice: 1299,
+    badge: "New",
+    image: [
+      "https://i.pinimg.com/736x/e7/2e/5b/e72e5b5dab04845e8e18d64b482423af.jpg",
+    ],
+    description: "Elevate your style with this elegant and comfortable women’s wear. Made from high-quality fabric, it offers a flattering fit and all-day comfort. Perfect for casual outings, office wear, and special occasions ,  Avaiable size's M, L, XL, XXL."
+    },
   // {
   //   id: "WOM-001",
   //   name: "Satin Statement Dress",
