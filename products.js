@@ -90,7 +90,7 @@ const PRODUCTS = [
   },
   {
     id: "prn-3542",
-    name: "Pranjul Daily wear with Pant",
+    name: "Pranjul Daily wear with Patiyala",
     category: "women",
     price: 1499,
     salePrice: 749,
@@ -102,7 +102,7 @@ const PRODUCTS = [
   },
   {
     id: "prn-3520",
-    name: "Pranjul Daily wear with Pant",
+    name: "Pranjul Daily wear with Patiyala",
     category: "women",
     price: 1499,
     salePrice: 749,
