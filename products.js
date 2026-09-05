@@ -76,8 +76,44 @@ const PRODUCTS = [
     ],
     description: "Elevate your style with this elegant and comfortable women’s wear. Made from high-quality fabric, it offers a flattering fit and all-day comfort. Perfect for casual outings, office wear, and special occasions ,  Avaiable size's M, L, XL, XXL."
   },
+  {
+    id: "prn-2655",
+    name: "Pranjul Daily wear with Pant",
+    category: "women",
+    price: 1499,
+    salePrice: 749,
+    badge: "New",
+    image: [
+      "https://i.pinimg.com/736x/4e/c2/48/4ec2489333c109f52fa3817422b73b19.jpg",
+    ],
+    description: "Pranjul Daily wear with Pant with size M."
+  },
+  {
+    id: "prn-3542",
+    name: "Pranjul Daily wear with Pant",
+    category: "women",
+    price: 1499,
+    salePrice: 749,
+    badge: "New",
+    image: [
+      "https://i.pinimg.com/736x/4c/06/ec/4c06ec3763f2c7e30a09ae58e9997b43.jpg",
+    ],
+    description: "Pranjul Daily wear with Patiyala with size M."
+  },
+  {
+    id: "prn-3520",
+    name: "Pranjul Daily wear with Pant",
+    category: "women",
+    price: 1499,
+    salePrice: 749,
+    badge: "New",
+    image: [
+      "https://i.pinimg.com/736x/d5/9e/13/d59e13ffebbc9c6400ac6d2c547b6f50.jpg",
+    ],
+    description: "Pranjul Daily wear with Patiyala with size M."
+  },
     {
-    id: "Wom-001",
+    id: "Wom-002",
     name: "Beautiful Combo Pack with 1 Jockey Panty",
     category: "women",
     price: 1999,
