@@ -28,6 +28,11 @@ const STORE_CATEGORIES = [
     id: "peda",
     name: "Peda",
     image: "https://i.pinimg.com/1200x/b1/93/15/b1931595ca10149d46e49baf85a977d9.jpg"
+  },
+  {
+    id: "men",
+    name: "Men",
+    image: "https://i.pinimg.com/736x/5a/5b/f2/5a5bf23d3dd819863f2d2179fbd6ef26.jpg"
   }
 ];
 
@@ -123,6 +128,18 @@ const PRODUCTS = [
       "https://i.pinimg.com/736x/e7/2e/5b/e72e5b5dab04845e8e18d64b482423af.jpg",
     ],
     description: "Elevate your style with this elegant and comfortable women’s wear. Made from high-quality fabric, it offers a flattering fit and all-day comfort. Perfect for casual outings, office wear, and special occasions ,  Avaiable size's M, L, XL, XXL."
+    },
+    {
+    id: "Men-001",
+    name: "Beautiful Combo Pack with 1 Jockey Panty",
+    category: "men",
+    price: 1999,
+    salePrice: 1299,
+    badge: "New",
+    image: [
+      "https://i.pinimg.com/736x/f6/f3/ab/f6f3ab90aeaf93bfc975d54193b10ac8.jpg",
+    ],
+    description: "Elevate your style with this elegant and comfortable men’s wear. Made from high-quality fabric, it offers a flattering fit and all-day comfort. Perfect for casual outings, office wear, and special occasions ,  Avaiable size's M, L, XL, XXL."
     },
   // {
   //   id: "WOM-001",
